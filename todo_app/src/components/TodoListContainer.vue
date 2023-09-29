@@ -1,10 +1,10 @@
 <template>
   <todo-list-new />
-    <section class="container">
-        <div class="row justify-content-center m-2">
-            <todo-list-main />
-        </div>
-    </section>
+  <section class="container">
+    <div class="row justify-content-center m-2">
+      <todo-list-main />
+    </div>
+  </section>
 </template>
 
 <script setup>
