@@ -27,7 +27,7 @@ const menus = reactive([
   { key: 'App', value: '애플리케이션', URL: '#', position: 'left'},
   { key: 'Me', value: 'Profile', URL: '#', position: 'left'},
 ])
-
+debugger;
 const left_menus = computed(() => menus.filter((i) => i.position == 'left'))
 const right_menus = computed(() => menus.filter((i) => i.position == 'right'))
 const onMovePage = (evt, menu_obj) => {
